@@ -1,4 +1,6 @@
 import { FisiatriaTest } from "../data/fisiatria.js";
+import { ParametriTest } from "../data/parametri.js";
+import { AnimazioneTest } from "../data/animazione.js";
 import { el } from "../utils/dom.js";
 
 const params = new URLSearchParams(window.location.search);
@@ -17,6 +19,12 @@ switch (topic) {
   case "fisiatria":
     questions = shuffle(FisiatriaTest.questions).slice(0, 20);
     break;
+  case "animazione":
+    questions = shuffle(AnimazioneTest.questions).slice(0, 20);
+    break;
+  case "parametri":
+    questions = shuffle(ParametriTest.questions).slice(0, 20);
+    break;    
   default:
     alert("Test non valido");
     window.location.href = "test_selection.html";
@@ -119,3 +127,4 @@ function shuffle(arr) {
   }
   return a;
 }
+
