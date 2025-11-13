@@ -443,7 +443,7 @@ export const ParametriTest = {
             ""
         ),
 
-        new Question("Una FC di 12-18 atti respiratori al minuto è definita",
+        new Question("Una FR di 12-18 atti respiratori al minuto è definita",
             [
                 ["eupnea", 1],
                 ["tachipnea", 0],
@@ -453,7 +453,7 @@ export const ParametriTest = {
             "Eupnea è respirazione normale fisiologica."
         ),
 
-        new Question("Una FC superiore ai 24 atti respiratori al minuto è definita",
+        new Question("Una FR superiore ai 24 atti respiratori al minuto è definita",
             [
                 ["polipnea", 0],
                 ["tachipnea", 1],
@@ -463,7 +463,7 @@ export const ParametriTest = {
             "Tachipnea è frequenza respiratoria aumentata."
         ),
 
-        new Question("Una FC inferiore ai 10 atti respiratori al minuto e definita",
+        new Question("Una FR inferiore ai 10 atti respiratori al minuto e definita",
             [
                 ["tachipnea", 0],
                 ["polipnea", 0],
