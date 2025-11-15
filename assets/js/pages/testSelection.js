@@ -1,7 +1,8 @@
-// Gestione pulsanti della pagina di selezione
+// Gestione pulsanti della pagina di selezione// Gestione pulsanti della pagina di selezione
 const fisiatriaButton = document.getElementById("fisiatriaButton");
 const animazioneButton = document.getElementById("animazioneButton");
 const parametriButton = document.getElementById("parametriButton");
+const igieneButton = document.getElementById("igieneButton");
 const exitButton = document.getElementById("exitButton");
 
 fisiatriaButton.addEventListener("click", () => {
@@ -15,6 +16,10 @@ animazioneButton.addEventListener("click", () => {
 
 parametriButton.addEventListener("click", () => {
   window.location.href = "test.html?topic=parametri";
+});
+
+igieneButton.addEventListener("click", () => {
+  window.location.href = "test.html?topic=igiene";
 });
 
 exitButton.addEventListener("click", () => {
