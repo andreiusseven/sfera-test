@@ -23,7 +23,7 @@ switch (topic) {
   case "animazione":
     questions = shuffle(AnimazioneTest.questions).slice(0, 20);
     break;
-  case "paramtetri":
+  case "parametri":
     questions = shuffle(ParametriTest.questions).slice(0, 20);
     break;
   case "igiene":
@@ -134,3 +134,4 @@ function shuffle(arr) {
   }
   return a;
 }
+
