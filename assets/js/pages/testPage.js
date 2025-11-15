@@ -1,6 +1,7 @@
 import { FisiatriaTest } from "../data/fisiatria.js";
-import { ParametriTest } from "../data/parametri.js";
 import { AnimazioneTest } from "../data/animazione.js";
+import { ParametriTest } from "../data/parametri.js";
+import { IgieneTest } from "../data/igiene.js";
 import { el } from "../utils/dom.js";
 
 const params = new URLSearchParams(window.location.search);
@@ -22,9 +23,12 @@ switch (topic) {
   case "animazione":
     questions = shuffle(AnimazioneTest.questions).slice(0, 20);
     break;
-  case "parametri":
+  case "paramtetri":
     questions = shuffle(ParametriTest.questions).slice(0, 20);
-    break;    
+    break;
+  case "igiene":
+    questions = shuffle(IgieneTest.questions).slice(0, 20);
+    break;
   default:
     alert("Test non valido");
     window.location.href = "test_selection.html";
@@ -107,6 +111,9 @@ submitButton.addEventListener("click", () => {
 
   // Feedback finale
   const feedback = topic === "fisiatria" ? FisiatriaTest.getFeedback(totalScore) : "";
+  const feedback = topic === "animazione" ? AnimazioneTest.getFeedback(totalScore) : "";
+  const feedback = topic === "parametri" ? ParametriTest.getFeedback(totalScore) : "";
+  const feedback = topic === "igiene" ? IgieneTest.getFeedback(totalScore) : "";
   resultText.textContent = `Punteggio totale: ${totalScore} ${feedback}`;
 
   submitButton.textContent = "Ricalcola punteggio";
@@ -127,4 +134,3 @@ function shuffle(arr) {
   }
   return a;
 }
-
