@@ -110,10 +110,12 @@ submitButton.addEventListener("click", () => {
   });
 
   // Feedback finale
-  const feedback = topic === "fisiatria" ? FisiatriaTest.getFeedback(totalScore) : "";
-  const feedback = topic === "animazione" ? AnimazioneTest.getFeedback(totalScore) : "";
-  const feedback = topic === "parametri" ? ParametriTest.getFeedback(totalScore) : "";
-  const feedback = topic === "igiene" ? IgieneTest.getFeedback(totalScore) : "";
+ const feedback =
+  topic === "fisiatria" ? FisiatriaTest.getFeedback(totalScore) :
+  topic === "animazione" ? AnimazioneTest.getFeedback(totalScore) :
+  topic === "parametri" ? ParametriTest.getFeedback(totalScore) :
+  topic === "igiene" ? IgieneTest.getFeedback(totalScore) :
+  "";
   resultText.textContent = `Punteggio totale: ${totalScore} ${feedback}`;
 
   submitButton.textContent = "Ricalcola punteggio";
@@ -134,4 +136,5 @@ function shuffle(arr) {
   }
   return a;
 }
+
 
