@@ -10,7 +10,7 @@ export const GeriatriaTest = {
             ["Le problematiche fisiche in ex lavoratori ora pensionati", 0],
             ["L'implementazione di strutture territoriali per persone in età avanzata", 0]
           ],
-            "Geriatria deriva dal greco γέρων (geron), "vecchio, anziano" e ἰατρεία (iatreia), "cura"."
+            "Geriatria deriva dal greco γέρων (geron), 'vecchio, anziano' e ἰατρεία (iatreia), 'cura'."
         ),
 
         new Question("Quale tra queste NON è un obiettivo della medicina geriatrica?",
@@ -295,7 +295,7 @@ export const GeriatriaTest = {
 
         new Question("A chi sono rivolti i servizi dell'hospice?",
           [
-              Pensionati con disabilità  "", 0],
+            ["Pensionati con disabilità", 0],
             ["Malati terminali", 1],
             ["Anziani autosufficienti", 0],
             ["Persone con reddito basso", 0]
@@ -635,7 +635,7 @@ export const GeriatriaTest = {
 
         new Question("Quale fattore precipitante può indurre delirium?",
           [
-                Farmaci psicoattivi"", 0],
+            ["Farmaci psicoattivi", 0],
             ["Dolore", 0],
             ["Deprivazione del sonno", 0],
             ["Tutte le precedenti", 1]
