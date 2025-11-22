@@ -395,16 +395,6 @@ export const GeriatriaTest = {
 
         new Question("Cosa si intende per contenzione chimica?",
           [
-            ["", 0],
-            ["", 0],
-            ["", 0],
-            ["", 1]
-          ],
-            ""
-        ),
-
-        new Question("",
-          [
             ["L'uso di farmaci per sedare il paziente", 1],
             ["L'uso di sostanze stupefacenti che creano uno stato di dipendenza", 0],
             ["L'uso di farmaci per curare il paziente", 0],
@@ -593,7 +583,7 @@ export const GeriatriaTest = {
             "Il delirium ipercinetico si manifesta con iperattività e agitazione."
         ),
 
-        Question (Quale tipo di delirium alterna ipoattività e iperattività?"",
+        new Question ("Quale tipo di delirium alterna ipoattività e iperattività?",
           [
             ["Ipocinetico", 0],
             ["Persistente", 0],
