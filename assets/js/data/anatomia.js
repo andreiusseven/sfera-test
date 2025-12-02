@@ -1433,6 +1433,8 @@ export const AnatomiaTest = {
             "L’ipotalamo è il ponte tra SNC e sistema endocrino."
         )
 
+    ],
+    
   getFeedback(score) {
     if (score >= 0 && score <= 20) return "/20";
     return "";
