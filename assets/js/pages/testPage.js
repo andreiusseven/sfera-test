@@ -3,6 +3,7 @@ import { AnimazioneTest } from "../data/animazione.js";
 import { ParametriTest } from "../data/parametri.js";
 import { IgieneTest } from "../data/igiene.js";
 import { GeriatriaTest } from "../data/geriatria.js";
+import { AnatomiaTest } from "../data/anatomia.js";
 import { el } from "../utils/dom.js";
 
 const params = new URLSearchParams(window.location.search);
@@ -32,6 +33,9 @@ switch (topic) {
     break;
   case "geriatria":
     questions = shuffle(GeriatriaTest.questions).slice(0, 20);
+    break;
+  case "anatomia":
+    questions = shuffle(AnatomiaTest.questions).slice(0, 20);
     break;
   default:
     alert("Test non valido");
@@ -120,6 +124,7 @@ submitButton.addEventListener("click", () => {
   topic === "parametri" ? ParametriTest.getFeedback(totalScore) :
   topic === "igiene" ? IgieneTest.getFeedback(totalScore) :
   topic === "geriatria" ? GeriatriaTest.getFeedback(totalScore) :
+  topic === "anatomia" ? AnatomiaTest.getFeedback(totalScore) :
   "";
   resultText.textContent = `Punteggio totale: ${totalScore} ${feedback}`;
 
@@ -141,5 +146,3 @@ function shuffle(arr) {
   }
   return a;
 }
-
-
