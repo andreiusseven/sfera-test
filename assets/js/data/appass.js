@@ -992,7 +992,9 @@ export const AppAssTest = {
             ],
             "Il monitoraggio del peso corporeo è importante per valutare eventuale denutrizione o disidratazione."
         )
-
+    
+    ],
+  
   getFeedback(score) {
     if (score >= 0 && score <= 20) return "/20";
     return "";
