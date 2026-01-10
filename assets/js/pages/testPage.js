@@ -5,6 +5,7 @@ import { IgieneTest } from "../data/igiene.js";
 import { GeriatriaTest } from "../data/geriatria.js";
 import { AnatomiaTest } from "../data/anatomia.js";
 import { AppAssTest } from "../data/appass.js";
+import { Igiene2Test } from "../data/igiene2.js";
 import { el } from "../utils/dom.js";
 
 const params = new URLSearchParams(window.location.search);
@@ -40,6 +41,9 @@ switch (topic) {
     break;
   case "appass":
     questions = shuffle(AppAssTest.questions).slice(0, 20);
+    break;
+  case "igiene2":
+    questions = shuffle(Igiene2Test.questions).slice(0, 20);
     break;
   default:
     alert("Test non valido");
@@ -130,6 +134,7 @@ submitButton.addEventListener("click", () => {
   topic === "geriatria" ? GeriatriaTest.getFeedback(totalScore) :
   topic === "anatomia" ? AnatomiaTest.getFeedback(totalScore) :
   topic === "appass" ? AppAssTest.getFeedback(totalScore) :
+  topic === "igiene2" ? Igiene2Test.getFeedback(totalScore) :
   "";
   resultText.textContent = `Punteggio totale: ${totalScore} ${feedback}`;
 
