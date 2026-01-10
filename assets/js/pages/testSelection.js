@@ -6,6 +6,7 @@ const igieneButton = document.getElementById("igieneButton");
 const geriatriaButton = document.getElementById("geriatriaButton");
 const anatomiaButton = document.getElementById("anatomiaButton");
 const appassButton = document.getElementById("appassButton");
+const igiene2Button = document.getElementById("igiene2Button");
 const exitButton = document.getElementById("exitButton");
 
 fisiatriaButton.addEventListener("click", () => {
@@ -35,6 +36,10 @@ anatomiaButton.addEventListener("click", () => {
 
 appassButton.addEventListener("click", () => {
   window.location.href = "test.html?topic=appass";
+});
+
+igiene2Button.addEventListener("click", () => {
+  window.location.href = "test.html?topic=igiene2";
 });
 
 exitButton.addEventListener("click", () => {
