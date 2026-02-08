@@ -7,6 +7,7 @@ import { AnatomiaTest } from "../data/anatomia.js";
 import { AppAssTest } from "../data/appass.js";
 import { Igiene2Test } from "../data/igiene2.js";
 import { PatologiaTest } from "../data/patologia.js";
+import { DietologiaTest } from "../data/dietologia.js";
 import { el } from "../utils/dom.js";
 
 const params = new URLSearchParams(window.location.search);
@@ -48,6 +49,9 @@ switch (topic) {
     break;
   case "patologia":
     questions = shuffle(PatologiaTest.questions).slice(0, 20);
+    break;
+  case "dietologia":
+    questions = shuffle(DietologiaTest.questions).slice(0, 20);
     break;
   default:
     alert("Test non valido");
@@ -140,6 +144,7 @@ submitButton.addEventListener("click", () => {
   topic === "appass" ? AppAssTest.getFeedback(totalScore) :
   topic === "igiene2" ? Igiene2Test.getFeedback(totalScore) :
   topic === "patologia" ? PatologiaTest.getFeedback(totalScore) :
+  topic === "dietologia" ? DietologiaTest.getFeedback(totalScore) :
   "";
   resultText.textContent = `Punteggio totale: ${totalScore} ${feedback}`;
 
