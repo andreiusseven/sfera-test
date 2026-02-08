@@ -164,7 +164,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale indicazione della piramide alimentare riguarda gli alimenti da consumare solo in piccole quantità?",
-            listOf(
+            [
                 ["Dolci e snack", 1],
                 ["Verdura", 0],
                 ["Legumi", 0],
@@ -174,7 +174,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale fattore aumenta il rischio cardiovascolare?",
-            listOf(
+            [
                 ["Età avanzata", 0],
                 ["Tutte le risposte", 1],
                 ["Fumo", 0],
@@ -184,7 +184,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale tra questi è un fattore di rischio cardiovascolare indipendente?",
-            listOf(
+            [
                 ["Obesità addominale", 0],
                 ["Inattività fisica", 0],
                 ["Fumo di sigaretta", 1],
@@ -194,7 +194,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale condizione fa parte della sindrome metabolica?",
-            listOf(
+            [
                 ["Ipotensione", 0],
                 ["Glicemia bassa", 0],
                 ["Iperidratazione", 0],
@@ -204,7 +204,7 @@ export const DietologiaTest = {
         ),
 
         new Question("L’insulino-resistenza è definita come",
-            listOf(
+            [
                 ["incapacità delle cellule di rispondere all’insulina", 1],
                 ["carenza di glucagone", 0],
                 ["aumento della glicemia per iperattività cellulare", 0],
@@ -214,7 +214,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale tra questi NON è un fattore che favorisce l’insulino-resistenza?",
-            listOf(
+            [
                 ["Obesità", 0],
                 ["Dieta ricca di fibre", 1],
                 ["Scarsa attività fisica", 0],
@@ -224,7 +224,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Qual è il valore di glicemia che indica iperglicemia?",
-            listOf(
+            [
                 ["70–100 mg/dl", 0],
                 ["≤69 mg/dl", 0],
                 ["100–125 mg/dl", 0],
@@ -234,7 +234,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale valore di glicemia può indicare rischio pre-diabete?",
-            listOf(
+            [
                 ["50–69 mg/dl", 0],
                 ["≥200 mg/dl", 0],
                 ["100–125 mg/dl", 1],
@@ -244,7 +244,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale metodo diagnostico può confermare il diabete?",
-            listOf(
+            [
                 ["Emoglobina glicata", 1],
                 ["Esame delle urine", 0],
                 ["Test della vista", 0],
@@ -254,7 +254,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale valore glicemico casuale, associato a sintomi, permette la diagnosi di diabete?",
-            listOf(
+            [
                 ["100 mg/dl", 0],
                 ["≥200 mg/dl", 1],
                 ["150 mg/dl", 0],
@@ -264,7 +264,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale tra questi è un sintomo del diabete?",
-            listOf(
+            [
                 ["Riduzione della minzione", 0],
                 ["Aumento della massa muscolare", 0],
                 ["Visione offuscata", 1],
@@ -274,7 +274,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale complicanza a lungo termine è associata al diabete?",
-            listOf(
+            [
                 ["Dermatite", 0],
                 ["Gastrite", 0],
                 ["Otite", 0],
@@ -284,7 +284,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale misura preventiva contro il diabete è corretta?",
-            listOf(
+            [
                 ["Aumentare il consumo di fibre", 1],
                 ["Aumentare il consumo di alcol", 0],
                 ["Ridurre l’attività fisica", 0],
@@ -294,7 +294,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Il colesterolo è",
-            listOf(
+            [
                 ["una sostanza tossica", 0],
                 ["una sostanza grassa necessaria all’organismo", 1],
                 ["un minerale", 0],
@@ -304,7 +304,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale valore di colesterolo totale definisce ipercolesterolemia?",
-            listOf(
+            [
                 [">150 mg/dl", 0],
                 [">180 mg/dl", 0],
                 [">200 mg/dl", 1],
@@ -314,7 +314,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale lipoproteina riporta il colesterolo in eccesso al fegato?",
-            listOf(
+            [
                 ["VLDL", 0],
                 ["IDL", 0],
                 ["LDL", 0],
@@ -324,7 +324,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Le VLDL trasportano principalmente",
-            listOf(
+            [
                 ["trigliceridi", 1],
                 ["vitamine", 0],
                 ["minerali", 0],
@@ -334,7 +334,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale farmaco è utilizzato per ridurre la produzione epatica di colesterolo?",
-            listOf(
+            [
                 ["Cortisonici", 0],
                 ["Statine", 1],
                 ["Diuretici", 0],
@@ -344,7 +344,7 @@ export const DietologiaTest = {
         ),
 
         new Question("L’aterosclerosi è causata da",
-            listOf(
+            [
                 ["carenza di calcio", 0],
                 ["carenza di acqua", 0],
                 ["eccesso di lipidi", 1],
@@ -354,7 +354,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale evento può derivare dall’aterosclerosi?",
-            listOf(
+            [
                 ["Gastrite", 0],
                 ["Otite", 0],
                 ["Dermatite", 0],
@@ -364,7 +364,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale bevanda NON apporta nutrienti utili all'organismo?",
-            listOf(
+            [
                 ["Alcol", 1],
                 ["Latte", 0],
                 ["Tè", 0],
@@ -374,7 +374,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale fattore è una causa dell’obesità?",
-            listOf(
+            [
                 ["Sonno adeguato", 0],
                 ["Squilibrio tra apporto e consumo energetico", 1],
                 ["Attività fisica regolare", 0],
@@ -384,7 +384,7 @@ export const DietologiaTest = {
         ),
 
         new Question("L’obesità viscerale è particolarmente pericolosa perché",
-            listOf(
+            [
                 ["riduce la massa muscolare", 0],
                 ["riduce la pressione arteriosa", 0],
                 ["aumenta il rischio di sindrome metabolica", 1],
@@ -394,7 +394,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale percentuale della popolazione italiana adulta è in sovrappeso?",
-            listOf(
+            [
                 ["10%", 0],
                 ["20%", 0],
                 ["50%", 0],
@@ -404,7 +404,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale percentuale della popolazione italiana è obesa?",
-            listOf(
+            [
                 ["9,8%", 1],
                 ["3%", 0],
                 ["20%", 0],
@@ -414,7 +414,7 @@ export const DietologiaTest = {
         ),
 
         new Question("La sindrome metabolica include",
-            listOf(
+            [
                 ["ipertensione e dislipidemia", 1],
                 ["ipotensione", 0],
                 ["glicemia bassa", 0],
@@ -424,7 +424,7 @@ export const DietologiaTest = {
         ),
 
         new Question("L’insulina è prodotta da",
-            listOf(
+            [
                 ["cellule alfa del pancreas", 0],
                 ["cellule beta del pancreas", 1],
                 ["fegato", 0],
@@ -434,7 +434,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Il glucagone viene rilasciato quando",
-            listOf(
+            [
                 ["la glicemia è alta", 0],
                 ["dopo pasti ricchi di grassi", 0],
                 ["durante il sonno", 0],
@@ -444,7 +444,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale complicanza del diabete riguarda gli occhi?",
-            listOf(
+            [
                 ["Retinopatia", 1],
                 ["Neuropatia", 0],
                 ["Nefropatia", 0],
@@ -454,7 +454,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale lipoproteina porta il colesterolo ai tessuti?",
-            listOf(
+            [
                 ["HDL", 0],
                 ["LDL", 1],
                 ["VLDL", 0],
@@ -464,7 +464,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale lipoproteina deriva dalla trasformazione delle VLDL?",
-            listOf(
+            [
                 ["HDL", 0],
                 ["Chilomicroni", 0],
                 ["IDL", 1],
@@ -474,7 +474,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale unità alcolica corrisponde a un bicchiere di vino?",
-            listOf(
+            [
                 ["40 ml", 0],
                 ["80 ml", 0],
                 ["330 ml", 0],
@@ -484,7 +484,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale percentuale di carboidrati è prevista in una dieta bilanciata?",
-            listOf(
+            [
                 ["58%", 1],
                 ["30%", 0],
                 ["12%", 0],
@@ -494,7 +494,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quante kcal forniscono 1 grammo di lipidi?",
-            listOf(
+            [
                 ["4.1 kcal", 0],
                 ["9.3 kcal", 1],
                 ["7.1 kcal", 0],
@@ -504,7 +504,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale macronutriente ha il costo energetico più elevato nella termogenesi indotta dalla dieta?",
-            listOf(
+            [
                 ["Carboidrati", 0],
                 ["Grassi", 0],
                 ["Proteine", 1],
@@ -514,7 +514,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale componente rappresenta la quota maggiore della spesa energetica quotidiana?",
-            listOf(
+            [
                 ["Termogenesi indotta dalla dieta", 0],
                 ["Attività fisica", 0],
                 ["NEAT", 0],
@@ -524,7 +524,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale fascia d’età presenta il metabolismo basale più elevato?",
-            listOf(
+            [
                 ["Neonati", 1],
                 ["Adulti 30–59 anni", 0],
                 ["Anziani >75 anni", 0],
@@ -534,7 +534,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale fattore aumenta il metabolismo basale?",
-            listOf(
+            [
                 ["Ipotermia", 0],
                 ["Gravidanza", 1],
                 ["Sedentarietà", 0],
@@ -544,7 +544,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale tessuto consuma più energia a riposo?",
-            listOf(
+            [
                 ["Tessuto adiposo", 0],
                 ["Tessuto osseo", 0],
                 ["Tessuto muscolare", 1],
@@ -554,7 +554,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale attività rientra nel NEAT?",
-            listOf(
+            [
                 ["Nuotare 30 minuti", 0],
                 ["Sollevare pesi", 0],
                 ["Fare jogging", 0],
@@ -564,7 +564,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale percentuale della spesa energetica è attribuibile alla termogenesi indotta dalla dieta?",
-            listOf(
+            [
                 ["10%", 1],
                 ["<1%", 0],
                 ["4–5%", 0],
@@ -574,7 +574,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale macronutriente ha il minor costo energetico nella digestione?",
-            listOf(
+            [
                 ["Carboidrati", 0],
                 ["Grassi", 1],
                 ["Proteine", 0],
@@ -584,7 +584,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale condizione fisiologica aumenta il metabolismo basale?",
-            listOf(
+            [
                 ["Ipotensione", 0],
                 ["Ipotiroidismo", 0],
                 ["Febbre", 1],
@@ -594,7 +594,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale valore energetico ha l’alcol etilico?",
-            listOf(
+            [
                 ["4.1 kcal/g", 0],
                 ["9.3 kcal/g", 0],
                 ["3 kcal/g", 0],
@@ -604,7 +604,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale macronutriente ha un costo energetico del 4–5% durante la digestione?",
-            listOf(
+            [
                 ["Carboidrati", 1],
                 ["Proteine", 0],
                 ["Grassi", 0],
@@ -614,7 +614,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale macronutriente ha il valore calorico più elevato?",
-            listOf(
+            [
                 ["Proteine", 0],
                 ["Lipidi", 1],
                 ["Carboidrati", 0],
@@ -624,7 +624,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale macronutriente fornisce 4 kcal per grammo?",
-            listOf(
+            [
                 ["Lipidi", 0],
                 ["Alcol", 0],
                 ["Proteine", 1],
@@ -634,7 +634,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale affermazione descrive correttamente il vegetarianesimo?",
-            listOf(
+            [
                 ["Esclude solo gli alimenti di origine vegetale", 0],
                 ["Esclude tutti gli alimenti di origine animale", 0],
                 ["Non permette latte, uova e derivati", 0],
@@ -644,7 +644,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale affermazione descrive correttamente il veganesimo?",
-            listOf(
+            [
                 ["Esclude tutti gli alimenti di origine animale", 1],
                 ["Esclude solo carne e pesce", 0],
                 ["Permette latte e uova", 0],
@@ -654,7 +654,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale tra questi è un vantaggio della dieta vegetariana?",
-            listOf(
+            [
                 ["Maggiore apporto di grassi saturi", 0],
                 ["Maggiore apporto di fibre e antiossidanti", 1],
                 ["Maggiore apporto di colesterolo", 0],
@@ -664,7 +664,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale condizione è più frequente nei vegetariani rispetto agli onnivori?",
-            listOf(
+            [
                 ["Maggiore rischio cardiovascolare", 0],
                 ["Maggiore colesterolemia", 0],
                 ["Indice di massa corporea inferiore", 1],
@@ -674,7 +674,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale categoria è particolarmente a rischio di carenze nutrizionali con dieta vegana?",
-            listOf(
+            [
                 ["Adulti sportivi", 0],
                 ["Persone sedentarie", 0],
                 ["Uomini giovani", 0],
@@ -684,7 +684,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale nutriente può risultare carente nelle diete vegetariane e vegane?",
-            listOf(
+            [
                 ["Vitamina B12", 1],
                 ["Vitamina C", 0],
                 ["Magnesio", 0],
@@ -694,7 +694,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale strategia permette di migliorare la qualità delle proteine vegetali?",
-            listOf(
+            [
                 ["Consumare solo cereali", 0],
                 ["Combinare fonti proteiche diverse", 1],
                 ["Aumentare i grassi saturi", 0],
@@ -704,7 +704,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale nutriente è coperto per l’80% dall’esposizione solare?",
-            listOf(
+            [
                 ["Vitamina C", 0],
                 ["Vitamina B6", 0],
                 ["Vitamina D", 1],
@@ -714,7 +714,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale vitamina è di esclusiva origine animale?",
-            listOf(
+            [
                 ["Vitamina A", 0],
                 ["Vitamina C", 0],
                 ["Vitamina D", 0],
@@ -724,7 +724,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale sintomo può indicare carenza di vitamina B12?",
-            listOf(
+            [
                 ["Visione offuscata", 1],
                 ["Ipotensione", 0],
                 ["Aumento della forza muscolare", 0],
@@ -734,7 +734,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale tra questi è un segno di carenza di vitamina B12?",
-            listOf(
+            [
                 ["Iperattività", 0],
                 ["Glossite", 1],
                 ["Aumento dell’appetito", 0],
@@ -744,7 +744,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale condizione può derivare da carenza di vitamina B12?",
-            listOf(
+            [
                 ["Iperglicemia", 0],
                 ["Ipercolesterolemia", 0],
                 ["Anemia macrocitica", 1],
@@ -754,7 +754,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale acido grasso può risultare carente nelle diete vegane?",
-            listOf(
+            [
                 ["Omega 6", 0],
                 ["Omega 9", 0],
                 ["Acido oleico", 0],
@@ -764,7 +764,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale nutriente vegetale ha bassa biodisponibilità rispetto alla sua controparte animale?",
-            listOf(
+            [
                 ["Ferro", 1],
                 ["Vitamina C", 0],
                 ["Potassio", 0],
@@ -774,7 +774,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale sostanza facilita l’assorbimento del ferro?",
-            listOf(
+            [
                 ["Caffeina", 0],
                 ["Vitamina C", 1],
                 ["Tannini", 0],
@@ -784,7 +784,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale sintomo è tipico della carenza di ferro?",
-            listOf(
+            [
                 ["Iperattività", 0],
                 ["Aumento della temperatura corporea", 0],
                 ["Unghie fragili", 1],
@@ -794,7 +794,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale tra questi è un disturbo neuropsichiatrico associato a carenza di vitamina B12?",
-            listOf(
+            [
                 ["Iperattività", 0],
                 ["Euforia marcata", 0],
                 ["Aumento della memoria", 0],
@@ -804,7 +804,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale sintomo neurologico può comparire in caso di carenza di vitamina B12?",
-            listOf(
+            [
                 ["Parestesie", 1],
                 ["Aumento della forza muscolare", 0],
                 ["Iperriflessia", 0],
@@ -814,7 +814,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale sostanza ostacola l’assorbimento del ferro?",
-            listOf(
+            [
                 ["Vitamina C", 0],
                 ["Tè e caffè", 1],
                 ["Fruttosio", 0],
@@ -824,7 +824,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale nutriente è fondamentale per l’assorbimento del calcio?",
-            listOf(
+            [
                 ["Vitamina C", 0],
                 ["Vitamina K", 0],
                 ["Vitamina D", 1],
@@ -834,7 +834,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale esame è utile per valutare una possibile anemia sideropenica?",
-            listOf(
+            [
                 ["Trigliceridi", 0],
                 ["Colesterolo HDL", 0],
                 ["Magnesio", 0],
@@ -844,7 +844,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale funzione principale svolge l’apparato digerente?",
-            listOf(
+            [
                 ["Assumere, elaborare e assorbire i cibi", 1],
                 ["Eliminare i globuli rossi", 0],
                 ["Produrre ormoni tiroidei", 0],
@@ -854,7 +854,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quanto è lungo circa l’esofago?",
-            listOf(
+            [
                 ["10 cm", 0],
                 ["25 cm", 1],
                 ["50 cm", 0],
@@ -864,7 +864,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale struttura collega faringe e stomaco?",
-            listOf(
+            [
                 ["Intestino tenue", 0],
                 ["Cardias", 0],
                 ["Esofago", 1],
@@ -874,7 +874,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Come si chiama la porta di ingresso dello stomaco?",
-            listOf(
+            [
                 ["Piloro", 0],
                 ["Duodeno", 0],
                 ["Fondo", 0],
@@ -884,7 +884,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale disturbo è caratterizzato dalla risalita di contenuto acido in esofago?",
-            listOf(
+            [
                 ["Reflusso gastroesofageo", 1],
                 ["Gastrite", 0],
                 ["Ulcera duodenale", 0],
@@ -894,7 +894,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale condizione può favorire il reflusso gastroesofageo?",
-            listOf(
+            [
                 ["Peso corporeo basso", 0],
                 ["Obesità", 1],
                 ["Ipotensione", 0],
@@ -904,7 +904,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale complicanza può derivare dal reflusso severo?",
-            listOf(
+            [
                 ["Appendicite", 0],
                 ["Colecistite", 0],
                 ["Esofagite", 1],
@@ -914,7 +914,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale alimento può peggiorare il reflusso?",
-            listOf(
+            [
                 ["Verdure bollite", 0],
                 ["Riso bianco", 0],
                 ["Carni bianche", 0],
@@ -924,7 +924,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale farmaco è utilizzato per trattare il reflusso?",
-            listOf(
+            [
                 ["Inibitori di pompa protonica", 1],
                 ["Antistaminici", 0],
                 ["Antibiotici", 0],
@@ -934,7 +934,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Che cos’è la gastrite?",
-            listOf(
+            [
                 ["Infiammazione dell’esofago", 0],
                 ["Infiammazione della mucosa gastrica", 1],
                 ["Infiammazione del colon", 0],
@@ -944,7 +944,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale condizione epatica è reversibile?",
-            listOf(
+            [
                 ["Cirrosi epatica", 0],
                 ["Epatite autoimmune", 0],
                 ["Steatosi epatica", 1],
@@ -954,7 +954,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale sintomo è tipico della steatosi epatica?",
-            listOf(
+            [
                 ["Aumento della temperatura corporea", 0],
                 ["Tachicardia", 0],
                 ["Iperidrosi", 0],
@@ -964,7 +964,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale causa può favorire la stipsi?",
-            listOf(
+            [
                 ["Scarsa idratazione", 1],
                 ["Dieta ricca di fibre", 0],
                 ["Idratazione adeguata", 0],
@@ -974,7 +974,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Che cos’è il fecaloma?",
-            listOf(
+            [
                 ["Un’infezione intestinale", 0],
                 ["Una massa fecale disidratata e dura", 1],
                 ["Una forma di gastrite", 0],
@@ -984,7 +984,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale sintomo è tipico del diabete?",
-            listOf(
+            [
                 ["Ipotermia", 0],
                 ["Iperattività", 0],
                 ["Polidipsia", 1],
@@ -994,7 +994,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale valore di glicemia a digiuno indica diabete?",
-            listOf(
+            [
                 ["70–100 mg/dl", 0],
                 ["100–125 mg/dl", 0],
                 ["50–69 mg/dl", 0],
@@ -1004,7 +1004,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale organo può essere danneggiato dal diabete?",
-            listOf(
+            [
                 ["Reni", 1],
                 ["Milza", 0],
                 ["Tiroide", 0],
@@ -1014,7 +1014,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale complicanza vascolare può insorgere nel diabete?",
-            listOf(
+            [
                 ["Varicocele", 0],
                 ["Piede diabetico", 1],
                 ["Trombosi venosa superficiale", 0],
@@ -1024,7 +1024,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale terapia è indispensabile nel diabete di tipo 1?",
-            listOf(
+            [
                 ["Dieta ipocalorica", 0],
                 ["Attività fisica", 0],
                 ["Insulina", 1],
@@ -1034,7 +1034,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Qual è la terapia iniziale nel diabete di tipo 2?",
-            listOf(
+            [
                 ["Insulina immediata", 0],
                 ["Farmaci ipoglicemizzanti", 0],
                 ["Chemioterapia", 0],
@@ -1044,7 +1044,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale farmaco può essere utilizzato nel diabete tipo 2 se dieta e attività fisica non bastano?",
-            listOf(
+            [
                 ["Ipoglicemizzanti orali", 1],
                 ["Antibiotici", 0],
                 ["Anticoagulanti", 0],
@@ -1054,7 +1054,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale condizione può aumentare il rischio cardiovascolare nel paziente diabetico?",
-            listOf(
+            [
                 ["Ipotermia", 0],
                 ["Colesterolo elevato", 1],
                 ["Bassi trigliceridi", 0],
@@ -1064,7 +1064,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale sintomo è comune sia nel diabete tipo 1 che tipo 2?",
-            listOf(
+            [
                 ["Ipotensione", 0],
                 ["Iperattività", 0],
                 ["Poliuria", 1],
@@ -1074,7 +1074,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale condizione può comparire nel diabete non controllato?",
-            listOf(
+            [
                 ["Aumento della vista", 0],
                 ["Iperattività", 0],
                 ["Riduzione della glicemia", 0],
@@ -1084,7 +1084,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale valore di glicemia indica ipoglicemia?",
-            listOf(
+            [
                 ["<70 mg/dl", 1],
                 ["100 mg/dl", 0],
                 ["126 mg/dl", 0],
@@ -1094,7 +1094,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale sintomo può indicare ipoglicemia?",
-            listOf(
+            [
                 ["Aumento della sete", 0],
                 ["Sudorazione e tremori", 1],
                 ["Minzione frequente", 0],
@@ -1104,7 +1104,7 @@ export const DietologiaTest = {
         ),
 
         new Question("Quale condizione è tipica del diabete gestazionale?",
-            listOf(
+            [
                 ["Carenza assoluta di insulina", 0],
                 ["Esordio in età infantile", 0],
                 ["Alterazioni simili al diabete tipo 2", 1],
