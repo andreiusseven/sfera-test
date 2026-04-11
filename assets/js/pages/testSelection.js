@@ -9,19 +9,6 @@ const appassButton = document.getElementById("appassButton");
 const igiene2Button = document.getElementById("igiene2Button");
 const patologiaButton = document.getElementById("patologiaButton");
 const dietologiaButton = document.getElementById("dietologiaButton");
-const exitButton = document.getElementById("exitButton");
-
-fisiatriaButton.addEventListener("click"// Gestione pulsanti della pagina di selezione
-const fisiatriaButton = document.getElementById("fisiatriaButton");
-const animazioneButton = document.getElementById("animazioneButton");
-const parametriButton = document.getElementById("parametriButton");
-const igieneButton = document.getElementById("igieneButton");
-const geriatriaButton = document.getElementById("geriatriaButton");
-const anatomiaButton = document.getElementById("anatomiaButton");
-const appassButton = document.getElementById("appassButton");
-const igiene2Button = document.getElementById("igiene2Button");
-const patologiaButton = document.getElementById("patologiaButton");
-const dietologiaButton = document.getElementById("dietologiaButton");
 const farmacologiaButton = document.getElementById("farmacologiaButton");
 const exitButton = document.getElementById("exitButton");
 
@@ -68,51 +55,6 @@ dietologiaButton.addEventListener("click", () => {
 
 farmacologiaButton.addEventListener("click", () => {
   window.location.href = "test.html?topic=farmacologia";
-});
-
-exitButton.addEventListener("click", () => {
-  // Nel web non si chiude il browser: torniamo alla home
-  window.location.href = "index.html";
-});
- => {
-  // Passa il topic via query string
-  window.location.href = "test.html?topic=fisiatria";
-});
-
-animazioneButton.addEventListener("click", () => {
-  window.location.href = "test.html?topic=animazione";
-});
-
-parametriButton.addEventListener("click", () => {
-  window.location.href = "test.html?topic=parametri";
-});
-
-igieneButton.addEventListener("click", () => {
-  window.location.href = "test.html?topic=igiene";
-});
-
-geriatriaButton.addEventListener("click", () => {
-  window.location.href = "test.html?topic=geriatria";
-});
-
-anatomiaButton.addEventListener("click", () => {
-  window.location.href = "test.html?topic=anatomia";
-});
-
-appassButton.addEventListener("click", () => {
-  window.location.href = "test.html?topic=appass";
-});
-
-igiene2Button.addEventListener("click", () => {
-  window.location.href = "test.html?topic=igiene2";
-});
-
-patologiaButton.addEventListener("click", () => {
-  window.location.href = "test.html?topic=patologia";
-});
-
-dietologiaButton.addEventListener("click", () => {
-  window.location.href = "test.html?topic=dietologia";
 });
 
 exitButton.addEventListener("click", () => {
