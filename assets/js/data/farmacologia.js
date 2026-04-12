@@ -315,10 +315,10 @@ export const FarmacologiaTest = {
 
         new Question("Qual è lo scopo principale del metabolismo dei farmaci?",
           [
-            ["Rendere i farmaci più liposolubili", 0],
             ["Aumentare la durata d’azione", 0],
-            ["Trasformare i farmaci in composti idrosolubili", 0],
-            ["Aumentare la potenza del farmaco", 1]
+            ["Rendere i farmaci più liposolubili", 0],
+            ["Aumentare la potenza del farmaco", 0],
+            ["Trasformare i farmaci in composti idrosolubili", 1]
           ],
             "Il metabolismo rende i farmaci più idrosolubili per facilitarne l’eliminazione."
         ),
