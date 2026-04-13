@@ -9,6 +9,7 @@ import { Igiene2Test } from "../data/igiene2.js";
 import { PatologiaTest } from "../data/patologia.js";
 import { DietologiaTest } from "../data/dietologia.js";
 import { FarmacologiaTest } from "../data/farmacologia.js";
+import { Patologia2Test } from "../data/patologia2.js";
 import { el } from "../utils/dom.js";
 
 const params = new URLSearchParams(window.location.search);
@@ -56,6 +57,9 @@ switch (topic) {
     break;
   case "farmacologia":
     questions = shuffle(FarmacologiaTest.questions).slice(0, 20);
+    break;
+  case "patologia2":
+    questions = shuffle(Patologia2Test.questions).slice(0, 20);
     break;
   default:
     alert("Test non valido");
@@ -150,6 +154,7 @@ submitButton.addEventListener("click", () => {
   topic === "patologia" ? PatologiaTest.getFeedback(totalScore) :
   topic === "dietologia" ? DietologiaTest.getFeedback(totalScore) :
   topic === "farmacologia" ? FarmacologiaTest.getFeedback(totalScore) :
+  topic === "patologia2" ? Patologia2Test.getFeedback(totalScore) :
   "";
   resultText.textContent = `Punteggio totale: ${totalScore} ${feedback}`;
 
