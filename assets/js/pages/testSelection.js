@@ -10,6 +10,7 @@ const igiene2Button = document.getElementById("igiene2Button");
 const patologiaButton = document.getElementById("patologiaButton");
 const dietologiaButton = document.getElementById("dietologiaButton");
 const farmacologiaButton = document.getElementById("farmacologiaButton");
+const patologia2Button = document.getElementById("patologia2Button");
 const exitButton = document.getElementById("exitButton");
 
 fisiatriaButton.addEventListener("click", () => {
@@ -55,6 +56,10 @@ dietologiaButton.addEventListener("click", () => {
 
 farmacologiaButton.addEventListener("click", () => {
   window.location.href = "test.html?topic=farmacologia";
+});
+
+patologia2Button.addEventListener("click", () => {
+  window.location.href = "test.html?topic=patologia2";
 });
 
 exitButton.addEventListener("click", () => {
